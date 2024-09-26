@@ -47,7 +47,11 @@ kemudian untuk di sisi kanan, pilih jenis visualisasi stat lalu di bagian value 
 
 ### inconsistent_objects
 
-untuk field inconsistent_objects, lakukan tahap yang sama namun rename query namenya `inconsistent_objects`,  masukan parsing rows/root nya ke `inconsistent_objects` dan untuk bentuk visualisasinya pilih tabel , di bagian value option -> fields dan pilih nama query `is_consistent`.
+untuk field inconsistent_objects, lakukan tahap yang sama namun rename query namenya `inconsistent_objects`,  masukan parsing rows/root nya ke `inconsistent_objects` kemudian pada column nya pilih yang ingin ditampilkan, jika ingin semua maka tak perlu diisikan, disini saya ingin menampilkan `name` dengan `reason` nya saja.
+
+![image](https://github.com/user-attachments/assets/871c6fea-44da-4962-bda3-91200393a9eb)
+
+dan untuk bentuk visualisasinya pilih tabel , di bagian value option -> fields dan pilih nama query `is_consistent`.
 
 ## endpoint healthz
 
@@ -63,3 +67,6 @@ jika sudah berhasil semua maka akan menampilkan visual berikut jika metadata con
 
 ![image](https://github.com/user-attachments/assets/b6c8d6c0-e53a-449c-878b-e21c3e09d194)
 
+ini jika kondisinya inconsistent
+
+![image](https://github.com/user-attachments/assets/9c9b581a-88db-40eb-9994-84af8c4cf880)
